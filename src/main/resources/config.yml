@@ -1,0 +1,19 @@
+worlds: null
+
+# message_prefix: Change the prefix to messages shown in-game.
+message_prefix: "&6[NightVoter]"
+
+# message_interval: Interval between broadcast messages in seconds.
+message_interval: 300
+
+# time_check_interval: Interval between checking for night in seconds. Set a longer interval if you experience lag.
+time_check_interval: 0.5
+
+# warning_enabled: Enable or disable the warning for players when there is not much time left before votes are reset.
+warning_enabled: false
+
+# display_world_name: Enable or disable the display of world name in messages sent to the player. Does not affect global broadcasts.
+display_world_name: true
+
+# version: DO NOT CHANGE - indicates config format version. Used for upgrading to future versions.
+version: 1

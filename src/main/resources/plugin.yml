@@ -1,0 +1,16 @@
+name: NightVoter
+version: 2.1.0
+author: qfive
+main: net.qfive.nightvoter.NightVoter
+website: qfive.net
+api-version: 1.18
+description: A plugin that skips night in enabled worlds, and allows players to vote to not skip night.
+commands:
+  night:
+    description: Vote to not skip night in the world you are in
+    permission: nightvoter.night
+    permission-message: §4Sorry, you do not have permission to perform this command.
+  nightadmin:
+    description: Admin utilities for NightVoter
+    permission: nightvoter.admin
+    permission-message: §4Sorry, you do not have permission to perform this command.
